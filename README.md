@@ -44,8 +44,12 @@ cd upbit_bot
 # 가상 환경 세팅
 pip3 install virtualenv
 virtualenv upbit --python=python3.8
+** 로제타 에러 발생시 해당 명령어 참고
+arch -arm64 brew install python@3.8
 source upbit/bin/activate
+
 # 필요한 requirments 다운
+액티브하고 클론 받은 프로젝트 루트 경로 가서
 pip install -r requirements.txt
 
 ```
